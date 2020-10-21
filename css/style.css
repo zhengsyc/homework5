@@ -55,12 +55,14 @@ footer{
 
 @-webkit-keyframes logo_wiggle{
   /*Your code here.*/
-
+  0% {width: 25px};
+  100% {width: 420px};
 }
 
 @keyframes logo_wiggle{
   /*Your code here.*/
-
+  0% {width: 25px};
+  100% {width: 420px};
 } 
 
 #logo{
@@ -73,6 +75,10 @@ footer{
     min-height: 500px;
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   
 }
 
@@ -83,6 +89,7 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
+  flex-basis: 400px;
 
 }
 
@@ -142,6 +149,7 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
+  display:flex;
 }
 
 .nav_links{
